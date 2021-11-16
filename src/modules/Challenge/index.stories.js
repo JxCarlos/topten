@@ -1,6 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { Grid, Typography, Divider } from '@material-ui/core';
+import { TopTenModuleView } from './topTenModuleView';
 
 storiesOf('Challenge', module)
     .add('Component', () => {
@@ -11,7 +12,7 @@ storiesOf('Challenge', module)
                     <Divider />
                 </Grid>
                 <Grid item>
-                    Components
+                    <TopTenModuleView />
                 </Grid>
             </Grid>
         )
